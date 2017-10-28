@@ -3,7 +3,7 @@ galaxy_info:
   description: Role to dump host variables.
   license: BSD
 
-  issue_tracker_url: http://example.com/issue/tracker
+  issue_tracker_url: https://github.com/the-paulus/dump-vars/issues
 
   min_ansible_version: 1.0
 
