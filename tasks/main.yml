@@ -1,0 +1,14 @@
+---
+- name: Dump Variables
+  template:
+    src: "dump_vars.{{ dump_vars_format}}.j2"
+    dest: "/tmp/{{ dump_vars_filename }}"
+  tags:
+    - Information
+
+- name: Fetch Variables
+  fetch:
+    src: "/tmp/{{ dump_vars_filename }}"
+    dest: "remote_files/{{ dump_vars_filename }}"
+  tags:
+    - Information

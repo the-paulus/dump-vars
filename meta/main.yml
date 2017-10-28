@@ -1,0 +1,32 @@
+galaxy_info:
+  author: Paul Lyon
+  description: Role to dump host variables.
+  license: BSD
+
+  issue_tracker_url: http://example.com/issue/tracker
+
+  min_ansible_version: 1.0
+
+  github_branch: master
+
+  platforms:
+  - name: Fedora
+    versions:
+      - all
+  - name: Enterprise Linux
+    versions:
+      - all
+  - name: Gentoo
+    versions:
+      - all
+  - name: Debian
+    versions:
+      - all
+  - name: Ubuntu
+    versions:
+      - all
+
+  galaxy_tags:
+  - Information
+
+dependencies: []
