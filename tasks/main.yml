@@ -9,6 +9,6 @@
 - name: Fetch Variables
   fetch:
     src: "/tmp/{{ dump_vars_filename }}"
-    dest: "remote_files/{{ dump_vars_filename }}"
+    dest: "remote_files"
   tags:
     - Information
